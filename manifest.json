@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Pinboard enhancer",
+    "version": "0.0.1",
+    "description": "Pinboard enhancer",
+    "content_scripts": [
+        {
+            "matches": ["http://pinboard.in/*", "https://pinboard.in/*", "https://api.pinboard.in/*"],
+            "js": ["jquery-1.9.1.min.js", "script.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
