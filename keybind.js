@@ -3,8 +3,13 @@ $(function(){
   var current_key = 0;
   var cursor = undefined;
   var max = bookmark_titles.length - 1;
+
   $(document).keypress(function (e) {
-    var tagName = $(':focus').get(0).tagName;
+    var tagName = undefined;
+    if ($(':focus').get(0)) {
+      tagName = $(':focus').get(0).tagName;
+    }
+
     if (tagName != 'INPUT' && tagName != 'TEXTAREA') {
       console.log(e.which);
       switch (e.which) {
