@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Pinboard enhancer",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Pinboard enhancer",
     "content_scripts": [
         {
