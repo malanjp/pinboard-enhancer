@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": ["http://pinboard.in/*", "https://pinboard.in/*", "https://api.pinboard.in/*"],
-            "js": ["jquery-1.9.1.min.js", "script.js"],
+            "js": ["jquery-1.9.1.min.js", "quick_copy.js", "keybind.js"],
             "run_at": "document_start"
         }
     ]

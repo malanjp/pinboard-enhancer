@@ -5,8 +5,8 @@ pinboard enchancer for google chrome extension.
 
 Feature
 -----------------
-It is only this feature yet
 
-* quick copy: quick copy to mine
+* quick copy: quick copy to mine.
+* keybind: 'j', 'k' key is move curosr. 'q' key is quick copy to mine. please turn off official keybind form pinboard settings.
 
 
