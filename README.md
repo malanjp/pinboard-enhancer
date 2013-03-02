@@ -7,6 +7,17 @@ Feature
 -----------------
 
 * quick copy: quick copy to mine.
-* keybind: 'j', 'k' key is move curosr. 'q' key is quick copy to mine. please turn off official keybind form pinboard settings.
+* keybind: original keyboard shortcuts.
+
+
+### keybind ###
+
+please turn off official keybind form pinboard settings.
+
+* 'k', 'j' key is move curosr (up/down)
+* 'q' key is quick copy to mine
+* 'o' key is open link
+* 's' key is add star
+
 
 
