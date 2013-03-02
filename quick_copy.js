@@ -1,7 +1,7 @@
 $(function(){
   $('.bookmark').each(function(){
     var html = '&nbsp;<span><a href="#" class="quick_copy" onclick="return false">quick copy</a></span><span style="display:none;">copied!</span>';
-    $(this).find('.edit_links').append(html);
+    $(this).find('.edit_links').has('a.copy_link').append(html);
   });
 
   $('.quick_copy').bind('click', function(){
